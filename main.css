@@ -410,56 +410,114 @@ border: none;
 /*END CONTACT US SECTION STYLE*/
 
 /*FOOTER SECTION*/
-.contact_section_details{
-  width: 100%;
-  margin-top: 10px;
-  padding: 10px;
-  box-sizing: border-box;
-  display: flex;
-
-
+@media (max-width: 767px){
+  .contact_section_details{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: block;
+  }
+  
+  .contact_details{
+    width: 90%;
+    
+  }
+  
+  .help_links{
+    width: 30%;
+  }
+  
+  .help_links a{
+    color: black;
+  }
+  
+  .contact_details table{
+    padding: 20px;
+  }
+  
+  .contact_details table p{
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  
+  td img{
+    width: 20px
+  }
+  
+  .text-colored{
+    color: #D66939
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .help_links img{
+    width: 30px;
+  }
+  
+  .help_links .mt-2{
+    margin-top: 10px;
+  }
+  
+  .contact_section_footer{
+    text-align: center;
+  }
 }
-
-.contact_details{
-  width: 70%;
-  padding-left: 5px;
-}
-
-.help_links{
-  width: 30%;
-}
-
-.help_links a{
-  color: black;
-}
-
-.contact_details table{
-  padding: 10px
-}
-
-
-td img{
-  width: 20px
-}
-
-.text-colored{
-  color: #D66939
-}
-
-ul {
-  list-style: none;
-}
-
-.help_links img{
-  width: 30px;
-}
-
-.help_links .mt-2{
-  margin-top: 10px;
-}
-
-.contact_section_footer{
-  text-align: center;
+@media (min-width: 768px){
+  .contact_section_details{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+  
+  
+  }
+  
+  .contact_details{
+    width: 70%;
+    padding-left: 5px;
+  }
+  
+  .help_links{
+    width: 30%;
+  }
+  
+  .help_links a{
+    color: black;
+  }
+  
+  .contact_details table{
+    padding: 10px
+  }
+  
+  
+  td img{
+    width: 20px
+  }
+  
+  .text-colored{
+    color: #D66939
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .help_links img{
+    width: 30px;
+  }
+  
+  .help_links .mt-2{
+    margin-top: 10px;
+  }
+  
+  .contact_section_footer{
+    text-align: center;
+  }
+  
 }
 
 /*END FOOTER STYLE*/

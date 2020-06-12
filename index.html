@@ -17,58 +17,77 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body>
-<!--Head Section-->
-  <header class="header">
-    <!-- container -->
-    <div class="container">
-      <nav class="nav-bar">
-        <!-- logo -->
-        <div class="logo">
-          <p><span class="logo--orange-text">Esty</span>HOTEL</p>
-        </div>
-        <!-- end of logo -->
+<header class="subnav container">
+  <div class="item-1">
+    <p>BOOKING 8AM-10PM</p>
+  </div>
+  <div class="item-2">
+    <img src="./assets/icons/call.svg" alt="Call icon">
+    <p>070-XXX-XXX-XX</p>
+    <p>USD</p>
+    <span>ENGLISH</span>
+  </div>
+</header>
 
-        <!-- menu items -->
-        <ul class="menu">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Rooms</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">About us</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact us</a></li>
-        </ul>
-        <!--end of menu items -->
-       </nav>
-       <div class="hero">
-        <div class="hero--area">
-          <div class="hero--welcome">Welcome</div>
-          <h1 class="hero--text">ENJOY EXQUISITE COMFORT</h1>
-          <div class="hero--btn-container">
-            <button class="hero--btn">Book now</button>
-          </div>
-          <!-- booking section -->
-          <div class="booking">
-            <button class="booking--btn-check-in">Check in</button>
-            <button class="booking--btn-check-out">Check out</button>
-            <label id="adult">
-              <p class="booking--label-adult">Adult</p>
-              <input type="text" class="booking--input-adult" />
-            </label>
-            <label id="children">
-              <p class="booking--label-children">Children</p>
-              <input type="text" class="booking--input-children" />
-            </label>
-            <button class="booking--btn-check-availability">
-              CHECK AVAILABILITY
-            </button>
-          </div>
-        </div>
-      </div>
+<section class="container-1">
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check">
+      <i class="fa fa-bars" id="btn"></i>
+    </label>
+
+    <div class="menu-bar">
+      <label for="check">
+        <i class="fa fa-times" id="cancel"></i>
+      </label>
+      <p>Esty<strong>Hotel</strong>
+      </p>
+      <ul class="nav-links">
+        <li>
+          <a href="#home" class="active">Home</a>
+        </li>
+        <li>
+          <a href="#room">Room</a>
+        </li>
+        <li>
+          <a href="#services">Services</a>
+        </li>
+        <li>
+          <a href="#about">About us</a>
+        </li>
+        <li>
+          <a href="#blog">Blog</a>
+        </li>
+        <li>
+          <a href="#contact">Contact us</a>
+        </li>
+      </ul>
     </div>
-    <!--end of container -->
-  </header>
-<!--End of Head Section-->
+  </nav>
+
+  <div class="hero">
+    <h1 class="hero__main">Welcome</h1>
+    <p>Enjoy Exquisite Comfort</p>
+    <span>Book Now</span>
+  </div>
+
+
+  <!-- The orange section containing check-in info -->
+  <div class="footnav">
+    <p class="check-in">Check in</p>
+    <p class="check-out">Check Out</p>
+    <div class="together">
+      <p>Adult</p>
+      <div class="box"></div>
+    </div>
+    <div class="together">
+      <p>Children</p>
+      <div class="box"></div>
+    </div>
+    <p class="availability">
+      <a href="#"></a>Check Availability</p>
+  </div>
+</section>
 <!--About Section-->
 <div class="about-section">
 	<h3 class="about-us"><b>About us</b></h3>
@@ -209,46 +228,51 @@
   </div>
   <!-- END CONTACT SECTION -->
 
+<!-- Footer section -->
+<footer class="footer container">
+  <div class="row">
+    <div class="column">
+      <img src="./assets/icons/call.svg" width="40" height="20" alt="">070-XXX-XXX-XX, 01275933<p>
+        <img src="./assets/icons/location.svg" width="30" height="20" alt="">114A CRESCENT WAY, GBAGADA
+        LAGOS</p>
+      <p>
+        <img src="./assets/icons/email.svg" width="30" height="20" alt="">info@estyhotol.com,
+        admin@estyhotel.com
+      </p>
+    </div>
 
-<!-- FOOTER SECTION -->
-<div class="contact_section_details">
-	<div class="contact_details">
-		<table  width="100%" >
-			<colgroup>
-			    <col style="width: 4%">
-			    <col style="">
-			 </colgroup>
-			<tr>
-				<td><img src="./assets/icons/call.svg"></td>
-				<td><p><b>+234 901 2345 678 , 01 2345678</b></p></td>
-			</tr>
-			<tr>
-				<td><img src="./assets/icons/location.svg"></td>
-				<td><p><b>114A CRESENT WAY, GBAGADA LAGOS</b> </p></td>
-			</tr>
-			<tr>
-				<td><img src="./assets/icons/email.svg"></td>
-				<td><p><b>info@estyhotels.com.ng , admin@estyhotels.com.ng</b></p></td>
-			</tr>
-		</table>
-	 </div>
-	 <div class="help_links">
-	 	<ul>
-	 		<li><b class="text-colored">HELPFUL LINKS</b></li>
-	 		<li><a href="#">Rooms</a></li>
-	 		<li><a href="#">Food & drinks</a></li>
-	 		<li><a href="#">Amenities</a></li>
-	 		<li><a href="#">Meeting rooms</a></li>
-	 		<div class="mt-2 text-colored"><b>follow us</b><br>
-	 			<img src="./assets/icons/facebook.svg">
-	 			<img src="./assets/icons/instagram.svg">
-	 			<img src="./assets/icons/twitter.svg">
-	 		</div>
-	 	</ul>
-	 </div>
- </div>
-</div>
- <div class="contact_section_footer">&copy; Copyright 2020 HNGintenship. All right reserved</div>
+    <div class="column" style="justify-content: right;">
+      <ul>
+        <span>HELPFUL LINKS</span>
+        <li>
+          <a href="#">Rooms</a>
+        </li>
+        <li>
+          <a href="#">Foods & Drinks</a>
+        </li>
+        <li>
+          <a href="#">Amenities</a>
+        </li>
+        <li>
+          <a href="#">Meeting rooms</a>
+        </li>
+        <p>
+
+          <span>Follow Us</span>
+        </p>
+        <p>
+          <a href="facebook.com"><img src="./assets/icons/facebook.svg" width="50" height="70" alt=""></a>
+          <a href="index.html"><img src="./assets/icons/instagram.svg" width="50" height="70" alt=""></a>
+          <a href="index.html"><img src="./assets/icons/twitter.svg" width="50" height="70" alt=""></a>
+        </p>
+      </ul>
+
+    </div>
+
+
+  </div>
+  <p align="center">&copy; Copyright 2020 HNGInternship. All Rights Reserved.</p>
+</footer>
  <!-- END FOOTER  -->
 
  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

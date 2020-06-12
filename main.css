@@ -371,7 +371,7 @@ border: none;
 
 /*END FOOTER STYLE*/
 
-/*Another main.css, just for testing*/
+/*Header*/
 .subnav {
   margin: 0px;
   /* height: 5vh; */
@@ -494,7 +494,6 @@ border: none;
 .hero__main::after {
   content: '';
   display: inline-block;
-  width: 100px;
   height: 2px;
   background-color: #D66939;
   position: relative;
@@ -539,7 +538,7 @@ border: none;
   top: 340px;*/
   text-align: center;
   color: #fff;
-  font-size: 5rem;
+  font-size: 2rem;
   margin: 2% 0;
 }
 

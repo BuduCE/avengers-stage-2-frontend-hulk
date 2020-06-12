@@ -494,6 +494,7 @@ border: none;
 .hero__main::after {
   content: '';
   display: inline-block;
+  width: 70px;
   height: 2px;
   background-color: #D66939;
   position: relative;
